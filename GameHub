@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webflow Community | Cloneables</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="navbar" aria-label="Main navigation">
+        <div class="nav-left">
+          <a href="#" class="brand" aria-label="GameHub home">
+            <span class="brand-mark">W</span>
+          </a>
+          <ul class="nav-menu">
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Learn</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+        </div>
 
+        <div class="nav-actions">
+          <a href="#" class="link-btn">Login</a>
+          <a href="#" class="link-btn">Contact Sales</a>
+          <a href="#" class="primary-btn">Get started <span>— it’s free</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <div class="brand-badge">
+        <span class="brand-mark small">W</span>
+        <span>Made in Webflow</span>
+      </div>
+
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title">
+          Discover <span class="accent">Random</span> websites
+          built by the <span class="accent">Webflow</span> community
+        </h1>
+
+        <p class="hero-copy">
+          Browse Random websites designed and built in Webflow by the community.
+          Open any site to see it live, or filter for cloneable sites and clone one
+          to start your own site. Looking for templates?
+        </p>
+
+        <div class="search-wrap" role="search">
+          <span class="search-icon">⌕</span>
+          <input type="text" placeholder="Search" aria-label="Search websites" />
+        </div>
+
+        <div class="chip-row" aria-label="Filter categories">
+          <button class="chip active">All</button>
+          <button class="chip">Random</button>
+          <button class="chip">Animation</button>
+          <button class="chip">Interactions</button>
+          <button class="chip">CMS</button>
+          <button class="chip">Ecommerce</button>
+          <button class="chip">Portfolio</button>
+        </div>
+      </section>
+
+      <section class="explore" aria-labelledby="explore-title">
+        <div class="explore-header">
+          <div>
+            <h2 id="explore-title">Get started with free random cloneables</h2>
+            <p>Jumpstart your project by cloning a free site from the Webflow community</p>
+          </div>
+
+          <button class="sort-btn" type="button">Most liked</button>
+        </div>
+
+        <div class="card-grid">
+          <article class="site-card pink">
+            <div class="site-thumb"></div>
+          </article>
+
+          <article class="site-card dark">
+            <div class="site-thumb"></div>
+          </article>
+
+          <article class="site-card cream">
+            <div class="site-thumb"></div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
